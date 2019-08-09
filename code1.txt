@@ -1,0 +1,42 @@
+
+#include <stdio.h>
+
+
+void main()
+
+{
+   
+ int a[50],n,c=0,k;
+   
+ printf("enter the value of n and k:");
+
+ scanf("%d%d",&n,&k);
+    
+ printf("enter the array element");
+   
+ for(int i=0;i<n;i++)
+   
+ {
+       
+	 scanf("%d",&a[i]);
+  
+  }
+ 
+   for(int i=0;i<n;i++)
+   
+ {
+       
+	 if(a[i]==k)
+      
+            c=0;
+       
+        else
+           
+            c++;
+   
+ }
+   
+ printf("the time required is:",c);
+
+
+}
