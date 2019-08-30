@@ -24,7 +24,7 @@ return 0;
 }
 struct node* add(struct node* root, int data1)
 {
-if (root == NULL) //If the tree is empty, return a new,single node
+if (root == NULL) 
 {
 root=(struct node *)malloc(sizeof(struct node));
 root->data=data1;
