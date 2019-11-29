@@ -1,0 +1,30 @@
+Given a string S, and two numbers N, M - arrange the characters of string in betwee
+#include<iostream>
+
+#include<algorithm>
+
+using namespace std;
+
+int main()
+{
+
+int n;
+
+char c[10000];
+
+cin>>n;
+int a,b;
+
+while(n--)
+
+{
+
+cin>>c>>a>>b;
+
+sort(c+a,c+b+1,greater<char>());
+
+cout<<c<<endl;
+
+}
+
+}
